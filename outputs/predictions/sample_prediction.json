@@ -1,0 +1,24 @@
+{
+  "input": {
+    "Age": 16,
+    "Gender": 1,
+    "Ethnicity": 0,
+    "ParentalEducation": 2,
+    "StudyTimeWeekly": 3.5,
+    "Absences": 18,
+    "Tutoring": 0,
+    "ParentalSupport": 1,
+    "Extracurricular": 0,
+    "Sports": 0,
+    "Music": 0,
+    "Volunteering": 0
+  },
+  "predicted_grade_class": 4,
+  "risk_level": "High",
+  "recommendations": [
+    "Absences are high; reducing missed classes is likely to help performance.",
+    "Weekly study time is low; gradually increasing focused study time may help.",
+    "Consider tutoring support given the current risk level.",
+    "Additional parental/guardian engagement may provide helpful support."
+  ]
+}

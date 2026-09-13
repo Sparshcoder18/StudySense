@@ -1,0 +1,77 @@
+{
+  "project": "StudySense",
+  "generated_at_utc": "2026-09-12T21:34:37.482136+00:00",
+  "random_seed": 42,
+  "dataset": {
+    "source": "Students Performance Dataset (Rabie El Kharoua)",
+    "n_rows": 2392,
+    "n_columns": 18
+  },
+  "task_a_classification": {
+    "target": "GradeClass",
+    "model": "Tuned RF (Sec 23)",
+    "features": [
+      "Age",
+      "Gender",
+      "Ethnicity",
+      "ParentalEducation",
+      "StudyTimeWeekly",
+      "Absences",
+      "Tutoring",
+      "ParentalSupport",
+      "Extracurricular",
+      "Sports",
+      "Music",
+      "Volunteering"
+    ],
+    "excluded_due_to_leakage": [
+      "GPA",
+      "StudentID"
+    ],
+    "test_metrics": {
+      "Accuracy": 0.6994,
+      "Balanced Accuracy": 0.5491,
+      "Precision (macro)": 0.5532,
+      "Recall (macro)": 0.5491,
+      "F1 (macro)": 0.548,
+      "F1 (weighted)": 0.705
+    },
+    "risk_mapping": {
+      "0": "Low",
+      "1": "Low",
+      "2": "Moderate",
+      "3": "Moderate",
+      "4": "High"
+    }
+  },
+  "task_b_regression": {
+    "target": "GPA",
+    "model": "Linear Regression",
+    "features": [
+      "Age",
+      "Gender",
+      "Ethnicity",
+      "ParentalEducation",
+      "StudyTimeWeekly",
+      "Absences",
+      "Tutoring",
+      "ParentalSupport",
+      "Extracurricular",
+      "Sports",
+      "Music",
+      "Volunteering"
+    ],
+    "excluded_due_to_leakage": [
+      "GradeClass",
+      "StudentID"
+    ],
+    "test_metrics": {
+      "MAE": 0.1593,
+      "MSE": 0.0388,
+      "RMSE": 0.197,
+      "Median AE": 0.1467,
+      "R2": 0.9501
+    }
+  },
+  "sklearn_version": "1.8.0"
+}
