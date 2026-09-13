@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ss_primary">#3B5BDB</color>
+    <color name="ss_primary_dark">#2F4CC9</color>
+    <color name="ss_on_primary">#FFFFFF</color>
+    <color name="ss_background">#F7F8FA</color>
+    <color name="ss_surface">#FFFFFF</color>
+    <color name="ss_on_surface">#1A1C1E</color>
+    <color name="ss_on_surface_variant">#5F6368</color>
+    <color name="ss_error">#D93025</color>
+    <color name="ss_outline">#D8DCE1</color>
+</resources>

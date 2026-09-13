@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudySense</string>
+
+    <!-- Profile setup -->
+    <string name="profile_setup_title">Set up your profile</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_course">Course</string>
+    <string name="hint_semester">Semester</string>
+    <string name="hint_institution">Institution</string>
+    <string name="button_save_profile">Save and continue</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hello, %1$s</string>
+    <string name="dashboard_greeting_generic">Hello</string>
+    <string name="dashboard_subjects_card_title">Subjects</string>
+    <string name="dashboard_no_data_yet">No data yet</string>
+
+    <!-- Subjects -->
+    <string name="subjects_title">Subjects</string>
+    <string name="subjects_empty_title">No subjects yet.</string>
+    <string name="subjects_empty_subtitle">Add your first subject to start tracking performance.</string>
+    <string name="button_add_subject">Add subject</string>
+    <string name="hint_subject_name">Subject name</string>
+    <string name="hint_teacher">Teacher (optional)</string>
+    <string name="hint_target_score">Target score, 0-100 (optional)</string>
+    <string name="button_save_subject">Save subject</string>
+    <string name="delete_subject_content_description">Delete subject</string>
+</resources>
